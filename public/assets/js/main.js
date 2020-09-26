@@ -572,12 +572,12 @@ function getNextPageGrades(e){
     $(this).addClass("active");
     let link_id = $(this).attr("id");
     sessionStorage.setItem("linkId", ""+link_id);
-    if(typeList == "grade"){
+   if(typeList == "grade"){
         let html = `<option value="0">Sortiraj po godini studija...</option>
                         <option value="asc">Od najniže ka najvišoj godini</option>
                         <option value="desc">Od najviše ka najnižoj godini</option>`;
         $("#sort-grade-by-year-list").html(html);
-    }else{
+    }else if(typeList == "year"){
         let html = ` <option value="0">Sortiraj po ocenama...</option>
                         <option value="asc">Od najniže ka najvišoj oceni</option>
                         <option value="desc">Od najviše ka najnižoj oceni</option>`;
@@ -639,7 +639,7 @@ function showGradesTable(data){
                             </tr>`;
     }
     $("#grades-table").html(html);
-    showPaginationGrades(data);
+    //showPaginationGrades(data);
     $(".grades-list").change(writeGrade);
     $(".edit-grade").click(getGrades);
 }
