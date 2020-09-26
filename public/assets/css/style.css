@@ -933,6 +933,67 @@ body {
 .link-message{
     margin: 0px auto;
 }
+#navigation li a .link-text {
+    font-size: 16px;
+}
+#student-info-table tr td, #student-info-table tr td label, #student-image p, #profile a {
+    font-size: 17px;
+}
+#copyright a, #copyright {
+    font-size: 16px;
+}
+#year-of-study {
+    font-size: 16px;
+}
+.year-link {
+   font-size: 22px;
+}
+#new-subject a, #link-back {
+    font-size: 16px;
+}
+#link-back {
+    color: #191919;
+}
+#link-back a {
+    text-transform: none;
+    color: #191919;
+}
+#subjects-table tr th, #grades-table tr th, #schedule-table tr th, .admin-block table tr th, #add-link-table table tr th {
+    font-size: 16px;
+    color: #f4f4f4;
+    font-weight: normal;
+}
+#subjects-table tr td, #grades-table tr td, #schedule-table tr td, .admin-block table tr td, #add-link-table tr td {
+    font-size: 15px;
+}
+#subjects-table tr td a, #grades-table tr td a, #schedule-table tr td a, .admin-block table tr td a {
+    font-size: 15px;
+}
+#subjects-table tr td .exams-list li {
+    font-size: 14px;
+}
+#subjects-table tr td, #grades-table tr td, #schedule-table tr td, .admin-block table tr td, #add-link-table tr td {
+    font-size: 15px;
+}
+#average-grade label {
+    font-size: 15px;
+    color: #121212;
+}
+#new-link-block h2 {
+    font-size: 17px;
+}
+#links-list li a {
+    font-size: 17px;
+}
+#links-list li a .fa {
+    font-size: 20px;
+}
+#pagination-block ul li a, .admin-pagination ul li a {
+    font-size: 17px;
+}
+#login-form, #register-form {
+    padding-left: 23%;
+}
 @media screen and (max-width:1400px){
     #grades-wrapper {
         width: 80%;
@@ -987,6 +1048,9 @@ body {
     }
 }
 @media screen and (max-width:1200px){
+    #login-form, #register-form {
+        padding-left: 15%;
+    }
     #grades-wrapper {
         width: 98%;
     }
