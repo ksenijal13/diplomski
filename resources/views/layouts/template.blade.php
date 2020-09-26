@@ -1,0 +1,5 @@
+@include('fixed.head')
+@include('fixed.header')
+@include('partials.sidebar')
+@yield('main')
+@include('fixed.footer')
