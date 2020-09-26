@@ -628,7 +628,7 @@ function showGradesTable(data){
                                         html += `<select class="grades-list" data-id="${sg.subject_id}">
                                             <option value="0" selected disabled>Ocena...</option>`;
                                             for(let grade of data[2]){
-                                                html += `<option value="{{$grade->grade_id}}">${grade.grade}</option>`;
+                                                html += `<option value="${grade.grade_id}">${grade.grade}</option>`;
                                             }
                                         html += `</select>`;
                                     }

@@ -49,7 +49,7 @@ class GradesController extends FrontController
         $data = [];
         $data[0] = $this->gradeModel->getStudentGrades($userId, $offset, $sortYear, $sortGrade);
         $data[1] = $this->gradeModel->countGrades($userId);
-        $data[2] = $this->getGrades();
+        $data[2] = $this->gradeModel->getGrades();
         return response()->json($data, 200);
     }
 }
