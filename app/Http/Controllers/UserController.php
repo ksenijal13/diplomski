@@ -67,10 +67,10 @@ class UserController extends Controller
         $offset = $request->get("offset");
         $this->model = new User();
         try{
-            $this->model->deleteUserLink($userId);
+           /* $this->model->deleteUserLink($userId);
             $this->model->deleteUserTime($userId);
             $this->model->deleteUserUniversity($userId);
-            $this->model->deleteUserSubject($userId);
+            $this->model->deleteUserSubject($userId);*/
             $this->model->deleteUser($userId);
             $data = [];
             $data[0] = $this->model->getAllUsers($offset);
