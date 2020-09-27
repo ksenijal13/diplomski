@@ -596,7 +596,7 @@ function getNextPageGrades(e){
             showGradesTable(data);
         }
     });
-}
+}sh
 function showGradesTable(data){
     let html = `<tr id="grades-first">
                             <th>
@@ -811,6 +811,7 @@ function showSubjects(data){
     }
     $("#subjects-table").html(html);
     $(".show-final-input").click(showFinalInput);
+    $(".show-desc-input").click(showDescInput);
     showPagination(data);
 }
 function showPagination(data) {

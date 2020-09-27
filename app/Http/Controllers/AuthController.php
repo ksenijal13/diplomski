@@ -50,7 +50,6 @@ class AuthController extends Controller
     }
     public function logout(Request $request){
         $request->session()->forget("user");
-        //$request->session()->forget("success");
         $request->session()->flush();
         return redirect("/");
     }

@@ -91,10 +91,6 @@ class UserController extends Controller
     public function checkPassword(Request $request){
         $userPass = $request->post("mail-password");
         $mailPass = $request->session()->get("new-password");
-       // dd($mailPass);
-        //dd($userPass);
-        $x = $userPass == $mailPass;
-        //dd($x);
         if($userPass == $mailPass){
             $request->session()->put("correct", "correct");
             return redirect("/edit-password");
