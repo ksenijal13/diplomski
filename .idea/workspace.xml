@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcfe8425-46a3-45f2-aeff-c71cfb1511a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599144396083</updated>
       <workItem from="1599144399768" duration="20417000" />
-      <workItem from="1599938339797" duration="295765000" />
+      <workItem from="1599938339797" duration="295903000" />
     </task>
     <servers />
   </component>

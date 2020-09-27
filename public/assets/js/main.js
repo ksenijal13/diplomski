@@ -596,7 +596,7 @@ function getNextPageGrades(e){
             showGradesTable(data);
         }
     });
-}sh
+}
 function showGradesTable(data){
     let html = `<tr id="grades-first">
                             <th>
